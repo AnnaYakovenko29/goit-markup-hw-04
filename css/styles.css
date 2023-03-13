@@ -325,7 +325,7 @@ body {
 }
 
 .team-soc-icon {
-    fill: #F4F4FD;
+    fill: var(--backgrounds-color);
 }
 
 /*======COSTUMERS========*/
@@ -414,6 +414,11 @@ body {
 
 .footer-soc {
     margin-left: 120px;
+    padding: 100px;
+}
+
+.footer-logo-wrap {
+    padding: 100px 0;
 }
 
 .footer-wrap {
@@ -421,12 +426,9 @@ body {
     align-items: baseline;
 }
 .footer-soc-title {
-    font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--accent-color);
-    
     margin-bottom: 16px
 }
 
@@ -444,14 +446,15 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-    background: #2E2F42;
+    background: rgb(255, 255, 255, 0.1);
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
-.footer-soc-icon {
+.footer-soc-link {
     fill: var(--backgrounds-color);
 }
-
 
 /*======PORTFOLIO========*/
 
