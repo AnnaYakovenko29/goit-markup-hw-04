@@ -319,7 +319,7 @@ body {
 .team-soc-link {
     width: 100%;
     height: 100%;
-    background: #4D5AE5;
+    background: var(--tertiary-text-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -332,7 +332,7 @@ body {
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-    background: var(--backgrounds-accent-color);
+    background: var(--primery-link-color);
 }
 
 /*======COSTUMERS========*/
@@ -360,7 +360,6 @@ body {
 .customers-item {
     width: 168px;
     height: 88px;
-   
 }
 
 .customers-link {
